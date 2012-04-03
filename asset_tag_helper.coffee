@@ -35,7 +35,7 @@ class AssetTagHelper
   path_to_image: (source) ->
     @image_path(source)
 
-  image_tag: (source, options) ->
+  image_tag: (source, options = {}) ->
     src = options.src = @path_to_image(source)
     unless src?.match /^cid:/
       options.alt ||= @image_alt(src)

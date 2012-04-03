@@ -7,11 +7,11 @@
   ],
   "homepage": "https://github.com/huetsch/asset-tag-helper",
   "dependencies": {
-    "cream": ">= 0.0.9",
+    "cream": ">= 0.0.11",
     "tag-helper": ">= 0.0.11"
   },
   "main": "./asset_tag_helper.js",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "author": {
     "name": "Mark Huetsch",
     "email": "markhuetsch@gmail.com"

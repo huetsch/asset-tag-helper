@@ -30,6 +30,7 @@
 
     AssetTagHelper.prototype.image_tag = function(source, options) {
       var mouseover, size, src, _ref;
+      if (options == null) options = {};
       src = options.src = this.path_to_image(source);
       if (!(src != null ? src.match(/^cid:/) : void 0)) {
         options.alt || (options.alt = this.image_alt(src));
